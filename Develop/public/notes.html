@@ -27,6 +27,11 @@
 
     <nav class="navbar navbar-dark bg-dark">
       <a class="navbar-brand" href="/">Note Taker</a>
+
+      <div class="icons">
+        <i class="fas fa-save text-light save-note"></i>
+        <i class="fas fa-plus text-light new-note"></i>
+      </div>
     </nav>
 
 
@@ -42,7 +47,7 @@
 
 
 
-              
+
             </ul>
           </div>
 
@@ -51,28 +56,17 @@
 
 
         <div class="col-8">
-          <form action="/notes/saved" method="POST">
-            <input
-            class="note-title"
-            placeholder="Note Title"
-            maxlength="28"
-            type="text"
-            name="noteTitle"
-            />
+          
+          <input
+          class="note-title"
+          placeholder="Note Title"
+          maxlength="28"
+          type="text"
+          />
 
-            <input 
-            class="note-textarea"
-            placeholder="Note Text"
-            type="text"
-            name="noteBody"
-            />
-
-            <input
-            type="submit"
-            value="save"
-            >
-          </form>
-
+          <textarea class="note-textarea"
+          placeholder="Note Text"></textarea>
+          
         </div>
 
       </div>
