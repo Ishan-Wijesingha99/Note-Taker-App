@@ -128,6 +128,10 @@ const handleNoteView = (e) => {
 
   // render the active note by using this function
   renderActiveNote();
+
+  // set values on the right-hand side
+  noteTitle.value = activeNote.title;
+  noteText.value = activeNote.text;
 };
 
 // Sets the activeNote to and empty object and allows the user to enter a new note
