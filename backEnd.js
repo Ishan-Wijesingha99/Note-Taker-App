@@ -78,7 +78,10 @@ app.route('/api/notes')
 
 })
 
-
+// for all pages except the ones specified above, send index.html
+app.get('*', (req, res) => {
+    res.sendFile(path.join(__dirname, './Develop/public/index.html'))
+})
 
 // listening on port
 app.listen(port, () => {
