@@ -1,4 +1,7 @@
-# Note Taker App Using Express.js
+# Note Taker App
+
+## Link to Deployed Application
+https://note-taker-app-using-expressjs.herokuapp.com/
 
 
 
@@ -18,8 +21,3 @@ A user can also click one of the saved notes on the left-hand side for that note
 ![screenshot-2](./images/screenshot-2.png)
 ![screenshot-3](./images/screenshot-3.png)
 ![screenshot-4](./images/screenshot-4.png)
-
-
-
-## Link to Deployed Application
-https://note-taker-app-using-expressjs.herokuapp.com/
